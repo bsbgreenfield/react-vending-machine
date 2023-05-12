@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import Apple from './Apple';
 import Banana from './Banana';
 import Carrot from './Carrot';
@@ -15,6 +15,7 @@ function App() {
         <Route path='/apple' element= {<Apple/>}/>
         <Route path='/banana' element= {<Banana/>}/>
         <Route path='/carrot' element= {<Carrot/>}/>
+        <Route path='/*' element= {<Navigate to={"/"}/>}/>
       </Routes>
      </BrowserRouter>
     </div>
