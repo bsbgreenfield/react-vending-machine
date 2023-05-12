@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: 300px;
+}
+.linkBox{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 30px;
+    background-color: rgb(166, 166, 104);
+    color: white;
+    padding: 20px;
+}
+a{
+    color: white;
+}
+.VendingMachine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
